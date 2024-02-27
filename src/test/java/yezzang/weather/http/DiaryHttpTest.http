@@ -1,0 +1,26 @@
+### Send POST request with json body
+POST http://localhost:8080/create/diary?date=2024-02-27
+Content-Type: text/plain
+
+I want volkanovski
+
+
+### GET readDiary
+GET http://localhost:8080/read/diary?date=2024-02-27
+Accept: application/json
+
+
+### GET readDiaries
+GET http://localhost:8080/read/diaries?startDate=2024-02-26&endDate=2024-02-27
+Accept: application/json
+
+
+### PUT readDiaries
+PUT http://localhost:8080/update/diary?date=2024-02-27
+Content-Type: text/plain
+
+I want ortega
+
+### DELETE deleteDiary
+DELETE http://localhost:8080/delete/diary?date=2024-02-27
+Accept: application/json
